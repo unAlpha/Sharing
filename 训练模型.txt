@@ -1,0 +1,152 @@
+1——————————————————————————————————————
+
+我将使用一个Diffusion Model模型去生成一张图片或照片。现在我提供给你关于这个模型的资料，回答是否可以吗？
+
+2——————————————————————————————————————
+
+这是Midjourney的工作原理介绍:
+
+Midjourney is an Al image generation tool that takes inputs through text prompts and parameters and uses a Machine Learning (ML) algorithm trained on a large amount of image data to produce unique images. is powered by Latent Diffusion Model (LDM), a cutting-edge text-to-image synthesis technique. Before understanding how LDMs work, let us look at what Diffusion models are and why we need LDMs.
+
+Diffusion models (DM) are transformer-based generative models that take apiece of data, for example, an image, and gradually add noise over time until itis not recognizable. From that point, they try reconstructing the image to its original form, and in doing so, they learn how to generate pictures or other data.
+
+The issue with DMs is that the powerful ones often consume hundreds of GPU days, and inference is quite expensive due to sequential evaluations. To enable DM training on limited computational resources without compromising their quality as well as flexibility, DMs are applied in the latent space of powerful pre-trained autoencoders.
+
+Training a diffusion model on such a representation makes it possible to achieve an optimal point between complexity reduction and detail preservation, significantly improving visual fidelity. Introducing a cross attention layer to the model architecture turns the diffusion model into a powerful and flexible generator for generally conditioned inputs such as text and bounding boxes, enabling high-resolution convolution-based synthesis.
+
+先不用多做回复，请问答是否收到即可？
+
+3——————————————————————————————————————
+
+Version
+Midjourney routinely releases new model versions to improve efficiency, coherency, and quality. The latest model is the default, but other models can be used using the --version or --v parameter or by using the /settings command and selecting a model version. Different models excel at different types of images.
+
+Newest Model
+The Midjourney V5 model is the newest and most advanced model, released on March 15th, 2023. To use this model, add the --v 5 parameter to the end of a prompt, or use the /settings command and select MJ Version 5. This model has very high Coherency, excels at interpreting natural language prompts, is higher resolution, and supports advanced features like repeating patterns with –tile.
+
+What's new with the V5 base model? 
+-Much wider stylistic range and more responsive to prompting
+-Much higher image quality (2x resolution increase) improved dynamic range 
+-More detailed images. Details more likely to be correct. Less unwanted text
+-Improved performance with image prompting 
+-Supports --tile argument for seamless tiling (experimental)
+-Supports --ar aspect ratios greater than 2:1 (experimental)
+-Supports --iw for weighing image prompts versus text prompts
+
+Style and prompting for V5
+-Today's test is basically a 'pro' mode of the model.
+-lt's MUCH more 'unopinionated' than v3 and v4, and is tuned to provide a wide diversity of outputs and to be very responsive to your inputs. 
+-The tradeoff here is that it may be harder to use. Short prompts may not work as well. You should try to write longer, more explicit text about what you want (ie: "cinematic photo with dramatic lighting") 
+-Please chat with each other in prompt-chat to figure out how to use v5
+-We hope to have a 'friendly' default styling for v5 before we switch it to default. When this happens we will still let you turn it off and get back to something like this 'raw' mode today.
+
+Please note
+-This is an alpha test and things will change. DO NOT rely on this exact model being available in the future. lt will be significantly modified as we take V5 to full release.
+-Right now there is no V5 upsampler, the default resolution of V5 is the same as upscaled V4. lf you click upscale it will just instantly give you that one image by itself.
+
+Community Standards:
+-This model can generate much more realistic imagery than anything we've released before.
+-We've increased the number of moderators, improved moderation tooling, and will be enforcing our community standards with increased strictness and rigor. Don't be a jerk or create images to cause drama.
+
+More about V5:
+V5 is our second model trained on our Al supercluster and has been in the works for 5 months. lt uses significantly different neural architectures and new aesthetic techniques. V5 isn't the final step, but we hope you all feel the progression of something deep and unfathomable in the power of our collective human imagination.
+
+先不用多做回复，请问答是否收到即可？
+
+4——————————————————————————————————————
+
+Basic Parameters
+Aspect Ratios
+--aspect, or --ar Change the aspect ratio of a generation.
+
+Chaos
+--chaos <number 0–100> Change how varied the results will be. Higher values produce more unusual and unexpected generations.
+
+No
+--no Negative prompting, --no plants would try to remove plants from the image.
+
+Quality
+--quality <.25, .5, 1, or 2>, or --q <.25, .5, 1, or 2> How much rendering quality time you want to spend. The default value is 1. Higher values cost more and lower values cost less.
+
+Seed
+--seed <integer between 0–4294967295> The Midjourney bot uses a seed number to create a field of visual noise, like television static, as a starting point to generate the initial image grids. Seed numbers are generated randomly for each image but can be specified with the --seed or --sameseed parameter. Using the same seed number and prompt will produce similar ending images.
+
+Stop
+--stop <integer between 10–100> Use the --stop parameter to finish a Job partway through the process. Stopping a Job at an earlier percentage can create blurrier, less detailed results.
+
+Style
+--style <4a, 4b or 4c> Switch between versions of the Midjourney Model Version 4
+
+Stylize
+--stylize <number>, or --s <number> parameter influences how strongly Midjourney's default aesthetic style is applied to Jobs.
+
+Uplight
+--uplight Use an alternative "light" upscaler when selecting the U buttons. The results are closer to the original grid image. The upscaled image is less detailed and smoother.
+
+Upbeta
+--upbeta Use an alternative beta upscaler when selecting the U buttons. The results are closer to the original grid image. The upscaled image has significantly fewer added details.
+
+Default Values (Model Version 5)
+Aspect Ratio	Chaos	Quality	Seed	Stop	Stylize
+Default Value
+1:1	0	1	Random	100	100
+Range
+any	0–100	.25 .5, or 1	whole numbers 0–4294967295	10–100	0–1000
+Aspect ratios greater than 2:1 are experimental and may produce unpredicatble results.
+
+Compatibility
+Model Version & Parameter Compatability
+Affects initial generation	Affects variations + remix	Version 5	Version 4	Version 3	Test / Testp	Niji
+Max Aspect Ratio	✓	✓	any	1:2 or 2:1	5:2 or 2:5	3:2 or 2:3	1:2 or 2:1
+Chaos	✓		✓	✓	✓	✓	✓
+Image Weight	✓		✓		✓	✓	
+No	✓	✓	✓	✓	✓	✓	✓
+Quality	✓		✓	✓	✓		✓
+Seed	✓		✓	✓	✓	✓	✓
+Sameseed	✓				✓		
+Stop	✓	✓	✓	✓	✓	✓	✓
+Style				4a and 4b			
+Stylize	✓		0–1000
+default=100	0–1000
+default=100	625–60000
+default=2500)	1250–5000
+default=2500)	
+Tile	✓	✓	✓		✓		
+Video	✓				✓		
+Number of Grid Images	-	-	4	4	4	2 (1 when aspect ratio≠1:1)	.
+
+先不用多做回复，请问答是否收到即可？
+
+5——————————————————————————————————————
+
+好的，请问你已经了解Midjourney V5的原理以及如何使用了吗？下面我讲提供一些示例，以便你更好的学习如何使用提示词？只需要回答是否就可以了
+
+6——————————————————————————————————————
+Prompt 1:
+ultra wide shot, modern photo of beautiful 1970s woman in Hawaii. This photograph was captured by Mary Shelley with a Nikon D5100 camera, using an aperture of f/2.8, ISO 800, and a shutter speed of 1/100 sec. UHD dtm HDR 8k --ar 2:3 --v 5 
+
+prompt 2: A steampunk-inspired, futuristic battle-ready jetski skims across the water with a fierce presence. Intricate gears and brass fittings adorn its hull, showcasing the perfect blend of advanced technology and Victorian aesthetics. This realistic masterpiece glistens under the sun, ready for action. --ar 16:10 --s 50 --v 5 --g 2 
+
+prompt 3: a photo realistic image of a falcon wearing red and blue color football uniform flying aggressively while holding a football. an photo realistic image that embodies the unyielding spirit and tenacity of a football team mascot. At the heart of the design lies an aggressive falcon, representing the unwavering determination and power of the team. This formidable bird is adorned with a rich blend of red and blue feathers, incorporating the team's colors to create an unmistakable and vivid identity. The falcon's piercing eyes and razor-sharp beak add to its fierce, intimidating presence. The falcon firmly grasps a football in its talons. Demonstrating its dominance over the game and symbolizing the team's unrelenting pursuit of victory. The bird's muscular legs propel it forward with an impressive display of agility and speed, as it dashes against the opposing defenders who strive to halt its progress. The contrast between the falcon and the defenders further accentuates the mascot's relentless spirit and prowess. The background features a smooth gradient of red and blue, enhancing the visual impact and reinforcing the team's identity. Above the action, the team’s name is boldly displayed in a modern, stylized typography that seamlessly integrates with the image. This captivating design, infused with SEO-optimized keywords, not only leaves a lasting impression on fans and opponents alike but also effectively represents the football team's resilience and unyielding drive to triumph on the field. --upbeta --s 750 --v 5 
+
+prompt 4: epic background art, simple hacker theme, divine color scheme, mystical codes. Alphanumeric sequence, magic, high quality 4k, render in octane --v 5 --ar 9:16
+
+prompt 5: Pov Highly defined macrophotography of a realistic cat wearing reflective sunglasses relaxing at the tropical island, dramatic light --ar 2:3--S750 --v 5
+
+以上为5个提示词示例，请问是否收到？
+7——————————————————————————————————————
+
+下面是一些关键词：
+starcraft，terran，battlecruiser，combat，base，galaxy，laser gun，fire， quality，extremely detailed CG，unity 8K wallpaper，hyperdetailed，highres，cyber screen frame，absurderes，intricate and refined delicate detailed，cinematic lighting，strong rim light，brighter colours，depth of field
+请你以一名专业摄影师的身份，使用丰富的描述性语言，从示例中获取灵感，输出英文提示词。注意不要复制示例中的内容，而是使用示例中的格式
+
+
+
+
+———————————————————————————————————————
+提示：
+由于抖音无发大量发私信，后续新视频的资料，可能在抖音中发送不了，不过都可在交流群获取。如果在使用过程中存在问题，可在交流群讨论。
+
+以TG群为主：t.me/+XPmT0meuhWc3MTU5 
+以QQ群为辅：32782385
+
