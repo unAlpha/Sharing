@@ -1,5 +1,5 @@
 ### 分享一
-ChatGPT用于生成Midjourney关键词：[训练方案](https://github.com/unAlpha/Sharing/blob/master/Training_Model.txt)
+ChatGPT生成Midjourney关键词：[训练方案](https://pengdirect.notion.site/ChatGPT-Midjourney-56b94fb2a05441e286ac195e5714ba64)
 
 ### 分享二
 AutoGTP终极教程一：[安装与使用](https://pengdirect.notion.site/AutoGTP-cbb9d8c7775343a091d5918bdbd79630)
