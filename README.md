@@ -8,4 +8,4 @@ AutoGTP终极教程一：[安装与使用](https://pengdirect.notion.site/AutoGT
 ChatGPT：[安装方法](www.v2ex.com/t/900126)
 
 ### 分享四
-ChatGPT插件系统使用[排队链接](https://openai.com/waitlist/plugins)
+ChatGPT插件系统使用：[排队链接](https://openai.com/waitlist/plugins)
