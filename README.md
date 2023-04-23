@@ -4,6 +4,7 @@
 
 ###  📋ChatGPT相关内容分享
 1. ChatGPT：[安装方法](https://www.v2ex.com/t/900126)
-2. ChatGPT插件系统使用：[排队链接](https://openai.com/waitlist/plugins)
-3. AutoGTP终极教程：[安装与使用](https://pengdirect.notion.site/AutoGTP-cbb9d8c7775343a091d5918bdbd79630)
-4. ChatGPT4：[API申请](https://openai.com/waitlist/gpt-4-api)
+2. ChatGPT 插件系统：[排队链接](https://openai.com/waitlist/plugins)
+3. ChatGPT4 API申请：[排队链接](https://openai.com/waitlist/gpt-4-api)
+4. AutoGTP终极教程：[安装与使用](https://pengdirect.notion.site/AutoGTP-cbb9d8c7775343a091d5918bdbd79630)
+
