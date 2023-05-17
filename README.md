@@ -17,7 +17,7 @@
 ### 讨论与交流
 TG群（主）：t.me/pengdirect
 
-QQ群（副）：32782385。
+QQ群（副）：32782385
 
 
 ## Buy Me a Coffee (打赏功能)
