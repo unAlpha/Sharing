@@ -17,7 +17,7 @@
 
  
    
-## Buy Me a Coffee
+## Buy Me a Coffee (打赏功能)
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/benn)
 
 | Paypal | Wechat Pay | Ali Pay |
