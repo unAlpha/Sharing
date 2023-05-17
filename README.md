@@ -2,7 +2,7 @@
 1. ChatGPT生成Midjourney关键词：[训练方案](https://pengdirect.notion.site/ChatGPT-Midjourney-56b94fb2a05441e286ac195e5714ba64)
 2. Midjourney：[关键词总结](https://docs.google.com/spreadsheets/d/1GuAeSFtICsjQEwsRP2f--IayDxW9Dl0SCLOVov56FMc/edit?userstoinvite=smilevenuswww%40gmail.com#gid=1862105056)
 3. Midjourney：[学习资料](https://pan.baidu.com/s/1rv1Nr6N2SFVR0PBoDcNb9g?pwd=cq8b)
-4. Midjourney：[提示词生成器1](https://www.kandouyin.com/)
+4. Midjourney：[提示词生成器](https://www.kandouyin.com/)
 
 ###  📋ChatGPT 相关内容分享
 1. ChatGPT：[安装方法](https://www.v2ex.com/t/900126)
