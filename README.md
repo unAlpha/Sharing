@@ -11,3 +11,10 @@
 3. ChatGPT4 API申请：[排队链接](https://openai.com/waitlist/gpt-4-api)
 4. AutoGTP 终极教程：[安装与使用](https://pengdirect.notion.site/AutoGTP-cbb9d8c7775343a091d5918bdbd79630)
 
+## Buy Me a Coffee
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/benn)
+
+| Paypal | Wechat Pay | Ali Pay |
+| --- | --- | --- |
+| [**`Paypal`**](https://www.paypal.me/tobennhuang) | <img src="./Picstures/wechat_pay.JPG" height="240" /> | <img src="./doc/ali_pay.PNG" height="240" /> |
