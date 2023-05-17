@@ -13,7 +13,7 @@
 
 
 ###  💻我的软件
-发票终结者V3.2：[安装包地址](https://github.com/unAlpha/Invoice-Terminator/releases/tag/V3.2)
+1. 发票终结者V3.2：[安装包地址](https://github.com/unAlpha/Invoice-Terminator/releases/tag/V3.2)
 
  
    
