@@ -17,4 +17,4 @@
 
 | Paypal | Wechat Pay | Ali Pay |
 | --- | --- | --- |
-| [**`Paypal`**](https://www.paypal.me/tobennhuang) | <img src="./Pictures/wechat_pay.JPG" height="240" /> | <img src="./Pictures/ali_pay.JPG" height="240" /> |
+| <img src="./Pictures/Paypal.png" height="240" />| <img src="./Pictures/wechat_pay.JPG" height="240" /> | <img src="./Pictures/ali_pay.JPG" height="240" /> |
