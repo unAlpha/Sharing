@@ -14,13 +14,13 @@
 1. 发票终结者V3.2：[安装包地址](https://github.com/unAlpha/Invoice-Terminator/releases/tag/V3.2)
 
 
-### 讨论与交流
+###  🌎讨论与交流
 TG群（主）：t.me/pengdirect
 
 QQ群（副）：32782385
 
 
-## Buy Me a Coffee (打赏功能)
+###  🦴打赏功能
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/benn)
 
 | Paypal | Wechat Pay | Ali Pay |
