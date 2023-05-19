@@ -10,7 +10,7 @@
 3. AutoGTP 终极教程：[安装与使用](https://pengdirect.notion.site/AutoGTP-cbb9d8c7775343a091d5918bdbd79630)
 
 ###  💻我的软件
-1. 发票终结者V3.2：[安装包地址](https://github.com/unAlpha/Invoice-Terminator/releases/tag/V3.2)
+1. 发票终结者V3.2：[安装包地址](https://github.com/unAlpha/Invoice-Terminator)
 
 
 ###  🌎讨论与交流
