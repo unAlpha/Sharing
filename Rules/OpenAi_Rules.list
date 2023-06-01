@@ -1,0 +1,23 @@
+# NAME: OpenAi
+
+DOMAIN-SUFFIX,cloudflareinsights.com
+DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,cdn.cloudflare.net
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,cdn.auth0.com
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,gpt3sandbox.com
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,stripe.network
+DOMAIN-SUFFIX,openaicom.imgix.net
+DOMAIN-SUFFIX,pay.openai.com
+DOMAIN,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,invoice.stripe.com
+DOMAIN-SUFFIX,poe.com
+DOMAIN-KEYWORD,openai
+DOMAIN-KEYWORD,openaiapi
+DOMAIN-KEYWORD,openaipublic
+DOMAIN-SUFFIX,bard.google.com
+USER-AGENT,OpenAi*,OpenAi
