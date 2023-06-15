@@ -12,12 +12,6 @@ HOST-SUFFIX,account-paypal.org
 HOST-SUFFIX,accountpaypal.com
 HOST-SUFFIX,accountpaypal.net
 HOST-SUFFIX,accountpaypal.org
-HOST-SUFFIX,anfutong.cn
-HOST-SUFFIX,anfutong.com
-HOST-SUFFIX,anfutong.com.cn
-HOST-SUFFIX,beibao.cn
-HOST-SUFFIX,beibao.com
-HOST-SUFFIX,beibao.com.cn
 HOST-SUFFIX,bill-safe.com
 HOST-SUFFIX,billmelater.com
 HOST-SUFFIX,billmelater.info
@@ -248,9 +242,8 @@ HOST-SUFFIX,xn--bnq297cix3a.cn
 HOST-SUFFIX,xoom-experience.com
 HOST-SUFFIX,xoom.com
 HOST-SUFFIX,xoom.io
-HOST-SUFFIX,xoom.net.cn
+HOST-SUFFIX,xoom.net.cn 
 HOST-SUFFIX,xoom.us
 HOST-SUFFIX,xoomcom.com
-HOST-SUFFIX,易付通.cn
 HOST-KEYWORD,paypal
 USER-AGENT,PayPal*
